@@ -76,7 +76,7 @@ datadir=/Users/naoto/Documents/workspace/src/github.com/mysql/mysql-server/build
 $ bin/mysqld --defaults-file=./my.cnf
 ```
 
-## client接続
+## Client接続
 
 ### 接続
 
@@ -96,7 +96,7 @@ $ ALTER USER root@localhost IDENTIFIED BY 'MySQL8.0';
 
 ### launch.json
 
-C/C++拡張のlldbが追加して`program`を`args`をそれぞれ修正します.
+C/C++拡張のlldbを追加して`program`と`args`をそれぞれ修正します.
 
 ```diff
 {
